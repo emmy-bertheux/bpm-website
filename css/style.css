@@ -1,0 +1,110 @@
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Roboto', monospace;
+  font-size: 30px;
+  color: white ;   
+  margin: 30px;  
+  text-align: center;
+}
+.cart {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: white ;
+  margin: 25px; 
+  text-align: right;                       
+}
+
+.logo,.planet{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+
+}
+.head_cross {
+  width: 250px;
+  align-items: center;
+}
+.title_cross {
+  width: 150px;
+  margin-top: 25px;
+  align-items: center;
+
+}
+.boite1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: white ;   
+  margin: 0 0 20px 20px;                    
+}
+
+.boite1 h2 {
+  padding: 15px;
+}
+
+.boite3{
+  color: white ; 
+  text-align: right;                           
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+i{
+  padding: 10px;
+}
+a {
+  font-size:  25px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+@media (max-device-width: 540px) {
+  h1 {
+    padding-top: 20px;
+    font-size: 50px;
+  }
+
+  h2,.cart {
+    font-size: 30px;
+  }
+  #background-video {
+    height: auto;
+    width: auto;
+  }
+  .planet {
+  padding bottom: 50px;
+}
+  .flex {
+    display: block;
+  }
+  .boite3 {
+    text-align: center;
+    padding: 200px;
+  }
+  .boite1, .cart, h1{
+    text-align: center;
+    padding: 50px;
+  }
+  .boite1 h2 {
+  padding: 50px;
+}
+a {
+  font-size: 50px;
+}
+}
